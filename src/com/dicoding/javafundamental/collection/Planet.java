@@ -1,10 +1,13 @@
 package com.dicoding.javafundamental.collection;
 
-public class SetPlanet {
+import java.util.HashMap;
+import java.util.Map;
+
+public class Planet {
         private String name;
         private double mass;
 
-        public SetPlanet(String name, double mass){
+        public Planet(String name, double mass){
             this.name = name;
             this.mass = mass;
         }
@@ -13,3 +16,4 @@ public class SetPlanet {
             return "Planet" + name + ", mass " + mass;
         }
 }
+
